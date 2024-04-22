@@ -176,7 +176,7 @@
 
   /* MULTI-STEP ANIMATIONS 3 MULTI-STEP ANIMATIONS 3 MULTI-STEP ANIMATIONS3 */
   
-  .equilizer {
+  /* .equilizer {
     height: 100px;
     width: 100px;
     transform: rotate(180deg);
@@ -295,5 +295,33 @@
     display: flex;
     justify-content: center;
     height: 100vh;
+  }
+   */
+
+
+   /*  MUULTI STEP TRANSITIONS */ 
+
+   html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .box {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    transition: all 1s;
+  }
+  
+  .box:hover {
+    width: 300px;
+    background-color: orange;
   }
   
